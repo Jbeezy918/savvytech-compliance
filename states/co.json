@@ -1,0 +1,18 @@
+{
+  "code": "co",
+  "name": "Colorado",
+  "law": "SB 24-205",
+  "lawFull": "Colorado Artificial Intelligence Act (Senate Bill 24-205)",
+  "effective": "2026-02-01",
+  "summary": "Businesses deploying high-risk AI systems must disclose AI interactions and consequential decisions to consumers, document risk-management practices, and offer correction/appeal channels.",
+  "disclosure": {
+    "headline": "AI in use — Colorado SB 24-205 notice",
+    "body": "This service uses an artificial intelligence system to {purpose}. Under Colorado SB 24-205 you have the right to know when AI is making a consequential decision about you, request a human review, and correct factual inaccuracies that influence the outcome.",
+    "actions": [
+      { "label": "Learn what data is processed", "href": "{privacy_url}" },
+      { "label": "Request human review",          "href": "{contact_url}" }
+    ]
+  },
+  "lastReviewed": "2026-04-28",
+  "reviewedBy": "SavvyTech Consulting LLC — starter template only; not legal advice."
+}

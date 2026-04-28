@@ -1,0 +1,18 @@
+{
+  "code": "ca",
+  "name": "California",
+  "law": "SB 942",
+  "lawFull": "California AI Transparency Act (Senate Bill 942)",
+  "effective": "2026-01-01",
+  "summary": "Generative AI providers serving 1M+ California users must offer a free public AI-detection tool, embed both visible and hidden provenance markers in generated content, and disclose when content is AI-generated on user request.",
+  "disclosure": {
+    "headline": "AI-generated content — California SB 942 notice",
+    "body": "Some content on this page may be generated or modified by an artificial intelligence system. Under California SB 942 you may request provenance information for any AI-generated material and use the public AI-detection tool below to verify content origin.",
+    "actions": [
+      { "label": "Check content provenance", "href": "{detector_url}" },
+      { "label": "Contact us for details",   "href": "{contact_url}" }
+    ]
+  },
+  "lastReviewed": "2026-04-28",
+  "reviewedBy": "SavvyTech Consulting LLC — starter template only; not legal advice."
+}

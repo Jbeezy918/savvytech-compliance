@@ -1,0 +1,218 @@
+:root {
+  --ink: #0a0a0a;
+  --bg: #fafafa;
+  --accent: #ff3366;
+  --accent-dark: #d61f4f;
+  --muted: #555;
+  --hairline: #e5e5e5;
+  --max: 900px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.hero {
+  padding: 80px 0 60px;
+  background: linear-gradient(180deg, #fff 0%, #f0f0f0 100%);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  color: var(--accent);
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: clamp(36px, 6vw, 56px);
+  margin: 0 0 16px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.lede {
+  font-size: 20px;
+  color: var(--muted);
+  max-width: 640px;
+  margin: 0 0 32px;
+}
+
+.cta-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: transform 0.06s ease;
+}
+.cta:active { transform: translateY(1px); }
+
+.cta.primary {
+  background: var(--accent);
+  color: #fff;
+}
+.cta.primary:hover { background: var(--accent-dark); }
+
+.cta.secondary {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+}
+.cta.secondary:hover { background: var(--ink); color: #fff; }
+
+.bundle-note {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.bundle-note code {
+  background: #fff;
+  border: 1px solid var(--hairline);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+section { padding: 60px 0; }
+
+h2 {
+  font-size: 32px;
+  margin: 0 0 32px;
+  letter-spacing: -0.01em;
+}
+
+.steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 24px;
+}
+
+.steps li {
+  background: #fff;
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  padding: 24px 24px 24px 80px;
+  position: relative;
+}
+
+.num {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.steps h3 { margin: 0 0 8px; font-size: 18px; }
+.steps p { margin: 0; color: var(--muted); }
+.steps pre {
+  margin-top: 12px;
+  background: var(--ink);
+  color: #c4f0c4;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 13px;
+}
+
+.demo {
+  background: #fff;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.demo-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.demo-controls select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.demo-banner {
+  background: #fffbeb;
+  border: 2px solid #fbbf24;
+  border-radius: 8px;
+  padding: 18px 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  min-height: 80px;
+}
+.demo-banner h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #92400e;
+}
+
+.fineprint {
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+.why-grid > div {
+  background: #fff;
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  padding: 24px;
+}
+.why-grid h3 { margin: 0 0 8px; }
+.why-grid p { margin: 0; color: var(--muted); font-size: 15px; }
+
+footer {
+  background: #fff;
+  border-top: 1px solid var(--hairline);
+  padding: 40px 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+footer p { margin: 0 0 6px; }
+footer .legal { font-size: 12px; max-width: 600px; }
