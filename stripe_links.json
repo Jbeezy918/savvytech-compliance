@@ -1,0 +1,13 @@
+[
+  {
+    "name": "SavvyTech Transparency Tag — Personal",
+    "amount": 299,
+    "currency": "usd",
+    "interval": "month",
+    "product_id": "prod_UQKPQfH19q7Wu5",
+    "price_id": "price_1TRTkxGBA2e2Mkumtks5mnC8",
+    "lookup_key": "transparency_tag_personal_monthly",
+    "payment_link": "https://buy.stripe.com/eVq7sLdtP31abyacdm0Fi1F",
+    "created": "2026-04-29T08:46:07Z"
+  }
+]
